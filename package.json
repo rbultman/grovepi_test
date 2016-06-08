@@ -1,0 +1,26 @@
+{
+  "name": "grovepi_test",
+  "version": "1.0.0",
+  "description": "A test program to test changes to a fork of the GrovePi repo.",
+  "main": "blinky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sh clone_git_repos.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbultman/grovepi_test.git"
+  },
+  "keywords": [
+    "GrovePi"
+  ],
+  "dependencies" : {
+    "node-grovepi": "./GrovePi/Software/NodeJS/libs"
+  },
+  "author": "Rob Bultman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbultman/grovepi_test/issues"
+  },
+  "homepage": "https://github.com/rbultman/grovepi_test#readme"
+}
